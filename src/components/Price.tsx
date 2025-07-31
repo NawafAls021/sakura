@@ -14,35 +14,38 @@ const Price: React.FC = () => {
           </p>
         </div>
 
-        {/* صورة الباقات */}
+        
         <div className="relative w-full">
           <img
             src="/assets/price3.png"
             alt="SubPrice"
-            className="w-full h-auto object-cover rounded-[24px]"
+            className="w-full h-auto object-contain rounded-[24px]"
           />
 
-         {/* أزرار الاشتراك */}
-<div className="hidden sm:block">
-  <button
-    className="absolute bg-[#212121] text-[#FAFAFA] font-bold font-ibm text-[24px] px-5 py-2 rounded-full hover:opacity-90 top-[400px] left-[775px]"
-  >
-    اشترك
-  </button>
+          
+          <div className="absolute inset-0">
+            {/* الزر الأول */}
+            <div className="absolute top-[82%] left-[10%] -translate-x-1/2 -translate-y-1/2">
+              <button className="bg-[#212121] text-[#FAFAFA] font-bold font-ibm text-[20px] px-5 py-2 rounded-full hover:opacity-90">
+                اشترك
+              </button>
+            </div>
 
-  <button
-    className="absolute bg-[#AD9A4D] text-[#FAFAFA] font-bold font-ibm text-[24px] px-5 py-2 rounded-full hover:opacity-90 top-[390px] left-[440px]"
-  >
-    اشترك
-  </button>
+            
+            <div className="absolute top-[81%] left-[50%] -translate-x-1/2 -translate-y-1/2">
+              <button className="bg-[#AD9A4D] text-[#FAFAFA] font-bold font-ibm text-[20px] px-5 py-2 rounded-full hover:opacity-90">
+                اشترك
+              </button>
+            </div>
 
-  <button
-    className="absolute bg-[#212121] text-[#FAFAFA] font-bold font-ibm text-[24px] px-5 py-2 rounded-full hover:opacity-90 top-[400px] left-[110px]"
-  >
-    اشترك
-  </button>
-</div>
-
+            
+            <div className="absolute top-[82%] left-[90%] -translate-x-1/2 -translate-y-1/2">
+              <button className="bg-[#212121] text-[#FAFAFA] font-bold font-ibm text-[20px] px-5 py-2 rounded-full hover:opacity-90">
+                اشترك
+              </button>
+            </div>
+          
+          </div>
 
 
         </div>
