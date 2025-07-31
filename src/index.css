@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+@layer components {
+    .custom-heading {
+     @apply font-ibm font-bold text-[48px] sm:text-[96px] lg:text-[128px] leading-[66px] tracking-tight;
+    }
+    .custom-text{
+       @apply font-ibm font-normal text-[16px] sm:text-[20px] lg:text-[24px] leading-[100%] tracking-normal;
+    } 
+
+    .coustom-button {
+       @apply font-ibm font-medium text-white hover:opacity-90 transition w-[180px] sm:w-[220px] h-[50px] rounded-full bg-[#212121];
+    }
+}
