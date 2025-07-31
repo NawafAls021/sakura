@@ -1,11 +1,10 @@
-import LandingPage from "./pages/LandingPage";
-const App: React.FC = () => {
+const App = () => {
   return (
     <div>
-      <LandingPage />
+      <h1>شغال ✅</h1>
     </div>
   );
 };
 
-export default App;
+export default App
 
