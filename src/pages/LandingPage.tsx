@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
-import About from "../components/About";
+
 import Body from "../components/Body";
-import Price from "../components/Price";
+
 import Foter from "../components/Foter";
 import FooterE from "../components/FooterE";
 export default function LandingPage() {
