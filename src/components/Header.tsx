@@ -10,7 +10,7 @@ const Header: React.FC = () => {
       {/* الشعار */}
       <div className="w-[40px] h-[40px] flex items-center justify-center">
         <img
-          src="/assets/LogoSs.png"
+          src="/assets/logoss.png"
           alt="Sakura Logo"
           className="w-[16px] h-[23px] object-contain"
         />
