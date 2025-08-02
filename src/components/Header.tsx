@@ -19,8 +19,8 @@ const Header: React.FC = () => {
       {/* روابط التنقل */}
       <div
         className="font-ibm flex flex-wrap gap-4 sm:gap-6 md:gap-10 text-[#212121] 
-                   text-[16px] sm:text-[20px] md:text-[24px] font-medium text-center"
-        style={{ lineHeight: '24px', letterSpacing: '0%' }}
+                   text-[16px] sm:text-[20px] md:text-[24px] font-medium text-center leading-[24px] tracking-[0%]"
+        
       >
         <a href="#features" className="hover:opacity-90">المصورين</a>
         <a href="#services" className="hover:opacity-90">الأسعار</a>

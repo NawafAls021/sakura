@@ -5,12 +5,14 @@ import About from './About';
 const Hero: React.FC = () => {
   return (
     <div
-      className="relative w-full max-w-[1440px] mx-auto rounded-[32px] bg-cover bg-center"
-      style={{ 
-        backgroundImage: "url('/camera.jpg')",
-        height: '2100px',
-      }}
-    >
+      className="relative w-full max-w-[1440px] mx-auto rounded-[32px] bg-cover bg-center">
+       <img
+        src="/camera1.jpg"
+        alt="background"
+        className="h-[2100px]"
+      />
+      
+    
       <Header />
 
       <div
