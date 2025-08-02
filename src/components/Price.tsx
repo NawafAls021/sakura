@@ -25,21 +25,21 @@ const Price: React.FC = () => {
           
           <div className="absolute inset-0">
             {/* الزر الأول */}
-            <div className="absolute top-[75%] left-[15%] -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute top-[87%] left-[15%] -translate-x-1/2 -translate-y-1/2">
               <button className="bg-[#212121] text-[#FAFAFA] font-bold font-ibm text-[20px] px-5 py-2 rounded-full hover:opacity-90">
                 اشترك
               </button>
             </div>
 
             
-            <div className="absolute top-[70%] left-[50%] -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute top-[90%] left-[50%] -translate-x-1/2 -translate-y-1/2">
               <button className="bg-[#AD9A4D] text-[#FAFAFA] font-bold font-ibm text-[20px] px-5 py-2 rounded-full hover:opacity-90">
                 اشترك
               </button>
             </div>
 
             
-            <div className="absolute top-[78%] left-[80%] -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute top-[85%] left-[85%] -translate-x-1/2 -translate-y-1/2">
               <button className="bg-[#212121] text-[#FAFAFA] font-bold font-ibm text-[20px] px-5 py-2 rounded-full hover:opacity-90">
                 اشترك
               </button>
