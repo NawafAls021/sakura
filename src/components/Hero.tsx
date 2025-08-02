@@ -5,7 +5,7 @@ import About from './About';
 const Hero: React.FC = () => {
   return (
     <div
-      className="relative w-full max-w-[1440px] mx-auto rounded-[32px] bg-[url('/camera.jpg')] bg-cover bg-center h-[2100px]">
+      className="relative w-full max-w-[1440px] mx-auto rounded-[32px] bg-hero">
        
       
     
