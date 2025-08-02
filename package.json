@@ -1,7 +1,7 @@
 {
   "name": "sakura",
   "version": "0.1.0",
-  "homepage": "https://NawafAls021.github.io/Sakura",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
