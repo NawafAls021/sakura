@@ -1,12 +1,14 @@
 import React from 'react';
-import '../index.css';
 import Header from './Header';
 import About from './About';
 
 const Hero: React.FC = () => {
   return (
     <div
-      className="relative w-full max-w-[1440px] mx-auto rounded-[32px] bg-hero">
+      className="relative w-full max-w-[1440px] mx-auto rounded-[32px] bg-cover bg-center h-[2100px]"
+      style={{
+        backgroundImage: "url('/camera.jpg')",
+      }}>
        
       
     
