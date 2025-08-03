@@ -22,10 +22,10 @@
        @apply font-ibm font-medium text-white hover:opacity-90 transition w-[180px] sm:w-[220px] h-[50px] rounded-full bg-[#212121];
     }
     .coustom-pricebutton {
-      @apply bg-[#212121] text-[#FAFAFA] font-bold font-ibm text-[20px] px-5 py-2 rounded-full hover:opacity-90
+      @apply bg-[#212121] text-[#FAFAFA] font-bold font-ibm text-[20px] px-5 py-1 rounded-full hover:opacity-90
     }
      .coustom-pricebutton1 {
-      @apply bg-[#AD9A4D] text-[#FAFAFA] font-bold font-ibm text-[20px] px-5 py-2 rounded-full hover:opacity-90
+      @apply bg-[#AD9A4D] text-[#FAFAFA] font-bold font-ibm text-[20px] px-5 py-1 rounded-full hover:opacity-90
     }
     
 }
