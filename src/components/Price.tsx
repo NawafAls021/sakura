@@ -22,31 +22,8 @@ const Price: React.FC = () => {
             className="w-full h-auto object-contain rounded-[24px]"
           />
 
-          
-          <div className="absolute inset-0">
-            {/* الزر الأول */}
-            <div className="absolute top-[87%] left-[15%] -translate-x-1/2 -translate-y-1/2">
-              <button className="coustom-pricebutton">
-                اشترك
-              </button>
-            </div>
 
-            
-            <div className="absolute top-[87%] left-[50%] -translate-x-1/2 -translate-y-1/2">
-              <button className="coustom-pricebutton1">
-                اشترك
-              </button>
-            </div>
-
-            
-            <div className="absolute top-[87%] left-[85%] -translate-x-1/2 -translate-y-1/2">
-              <button className="coustom-pricebutton">
-                اشترك
-              </button>
-            </div>
-          
-          </div>
-
+           
 
         </div>
       </div>
